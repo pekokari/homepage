@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  pekokari-nginx:
+    image: nginx
+    container_name: pekokari-nginx
+    ports:
+    - 8080:80
+    volumes:
+    - .:/var/www/pekokari:cached
+    - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf

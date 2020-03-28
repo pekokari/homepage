@@ -1,0 +1,1173 @@
+﻿<!doctype html>
+
+<html lang="ja" data-reactroot="">
+
+<head>
+	<meta charSet="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+	<title data-react-helmet="true">株式会社ペコカリ | Pekokari, Inc.</title>
+	<link data-react-helmet="true" rel="canonical" href="https://www.pekokari.com" />
+	<meta name="description" content="インターネットに関わる全てのエンジニアリングをワンストップで提供します。" />
+	<meta name="keywords" content="開発,クラウド,インフラ,ゲーム,アプリ,Web,社内インフラ" />
+	<meta property="fb:app_id" content="522776621188656" />
+	<meta property="og:url" content="https://www.pekokari.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="株式会社ペコカリ | Pekokari, Inc." />
+	<meta property="og:description" content="インターネットに関わる全てのエンジニアリングをワンストップで提供します。" />
+	<meta property="og:image" content="/img/icon.png" />
+	<meta property="og:site_name" content="株式会社ペコカリ | Pekokari, Inc." />
+	<meta property="og:locale" content="ja_JP" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@pekokari" />
+	<meta name="twitter:title" content="株式会社ペコカリ | Pekokari, Inc." />
+	<meta name="twitter:description" content="インターネットに関わる全てのエンジニアリングをワンストップで提供します。" />
+	<meta name="twitter:image" content="https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/506753/b6401077a8265bdb776731ddc3e52d7c_0d0836a413c8d04f9dccdb4bf96c7c3e.png" />
+	<meta name="twitter:app:id:iphone" content="911640835" />
+	<meta name="twitter:app:url:iphone" content="amebaownd://public/sites/506753" />
+	<meta name="twitter:app:id:googleplay" content="jp.co.cyberagent.madrid" />
+	<meta name="twitter:app:url:googleplay" content="amebaownd://public/sites/506753" />
+	<meta name="twitter:app:country" content="US" />
+	<meta property="al:ios:url" content="amebaownd://public/sites/506753" />
+	<meta property="al:ios:app_store_id" content="911640835" />
+	<meta property="al:ios:app_name" content="Ameba Ownd" />
+	<meta property="al:android:url" content="amebaownd://public/sites/506753" />
+	<meta property="al:android:package" content="jp.co.cyberagent.madrid" />
+	<meta property="al:android:app_name" content="Ameba Ownd" />
+	<meta property="al:web:url" content="https://www.pekokari.com" />
+	<link rel="alternate" type="application/rss+xml" title="株式会社ペコカリ | Pekokari, Inc." href="https://www.pekokari.com/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="株式会社ペコカリ | Pekokari, Inc." href="https://www.pekokari.com/atom.xml" />
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+	<link href="https://static.amebaowndme.com/madrid-frontend/css/user.min-4b1c699.css" rel="stylesheet" type="text/css" />
+	<link href="https://static.amebaowndme.com/madrid-frontend/css/belle/index.min-4b1c699.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="https://static.amebaowndme.com/madrid-frontend/images/app/common/favicon.ico" />
+	<style id="site-colors" charSet="UTF-8">
+		.u-nav-clr {
+			color: #111111;
+		}
+
+		.u-nav-bdr-clr {
+			border-color: #111111;
+		}
+
+		.u-nav-bg-clr {
+			background-color: #eeeeee;
+		}
+
+		.u-nav-bg-bdr-clr {
+			border-color: #eeeeee;
+		}
+
+		.u-site-clr {
+			color:;
+		}
+
+		.u-base-bg-clr {
+			background-color: #ffffff;
+		}
+
+		.u-btn-clr {
+			color: #aaaaaa;
+		}
+
+			.u-btn-clr:hover,
+			.u-btn-clr--active {
+				color: rgba(170, 170, 170, 0.7);
+			}
+
+			.u-btn-clr--disabled,
+			.u-btn-clr:disabled {
+				color: rgba(170, 170, 170, 0.5);
+			}
+
+		.u-btn-bdr-clr {
+			border-color: #bbbbbb;
+		}
+
+			.u-btn-bdr-clr:hover,
+			.u-btn-bdr-clr--active {
+				border-color: rgba(187, 187, 187, 0.7);
+			}
+
+			.u-btn-bdr-clr--disabled,
+			.u-btn-bdr-clr:disabled {
+				border-color: rgba(187, 187, 187, 0.5);
+			}
+
+		.u-btn-bg-clr {
+			background-color: #bbbbbb;
+		}
+
+			.u-btn-bg-clr:hover,
+			.u-btn-bg-clr--active {
+				background-color: rgba(187, 187, 187, 0.7);
+			}
+
+			.u-btn-bg-clr--disabled,
+			.u-btn-bg-clr:disabled {
+				background-color: rgba(187, 187, 187, 0.5);
+			}
+
+		.u-txt-clr {
+			color: #111111;
+		}
+
+		.u-txt-clr--lv1 {
+			color: rgba(17, 17, 17, 0.7);
+		}
+
+		.u-txt-clr--lv2 {
+			color: rgba(17, 17, 17, 0.5);
+		}
+
+		.u-txt-clr--lv3 {
+			color: rgba(17, 17, 17, 0.3);
+		}
+
+		.u-txt-bg-clr {
+			background-color: #e7e7e7;
+		}
+
+		.u-lnk-clr,
+		.u-clr-area a {
+			color: #b38d19;
+		}
+
+			.u-lnk-clr:visited,
+			.u-clr-area a:visited {
+				color: rgba(179, 141, 25, 0.7);
+			}
+
+			.u-lnk-clr:hover,
+			.u-clr-area a:hover {
+				color: rgba(179, 141, 25, 0.5);
+			}
+
+		.u-ttl-blk-clr {
+			color: #111111;
+		}
+
+		.u-ttl-blk-bdr-clr {
+			border-color: #111111;
+		}
+
+		.u-ttl-blk-bdr-clr--lv1 {
+			border-color: #cfcfcf;
+		}
+
+		.u-bdr-clr {
+			border-color: #e6e6e6;
+		}
+
+		.u-acnt-bdr-clr {
+			border-color: #b38d19;
+		}
+
+		.u-acnt-bg-clr {
+			background-color: #b38d19;
+		}
+
+		body {
+			background-color: #ffffff;
+		}
+
+		blockquote {
+			color: rgba(17, 17, 17, 0.7);
+			border-left-color: #e6e6e6;
+		}
+
+		;
+	</style>
+	<style id="user-css" charSet="UTF-8">
+			   /**
+		* @media all
+		* 全体に適用したいCSSを記述してください。
+		*/
+			   .keyvisual__image {
+				   height: 0px;
+			   }
+
+			   .blog-list {
+				   height: 0px
+			   }
+
+			   ;
+	</style>
+	<style media="screen and (max-width: 800px)" id="user-sp-css" charSet="UTF-8">
+			   /**
+		* @media (max-width: 800px)
+		* 画面幅が800px以下のスマートフォン、タブレット用のCSSを記述してください。
+		*/
+			   ;
+	</style>
+	<script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        if ('UA-147080864-1' && window.ga) {
+            window.ga('create', 'UA-147080864-1', 'auto', {
+                'name': 'usertrack'
+            });
+        }
+	</script>
+</head>
+
+<body id="mdrd-4b1c699" class="u-txt-clr u-base-bg-clr theme-belle plan-basic home">
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PXK9MM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXK9MM');
+	</script>
+	<div id="content">
+		<div class="page " data-reactroot="">
+			<div class="page__outer">
+				<div class="page__inner u-base-bg-clr">
+					<aside style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;transform:none !important;display:block !important;position:static !important;padding:0 !important;overflow:visible !important;margin:0 !important">
+						<div class="owndbar--app"></div>
+						<div class="owndbar owndbar--header owndbar__visitor " style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;transform:none !important;display:block !important;position:static !important;padding:0 !important;overflow:visible !important;margin:0 !important">
+							<div class="owndbar__header owndbar-header">
+								<a class="owndbar__logo owndbar__btn" href="https://www.amebaownd.com" rel="nofollow">
+									Ameba Ownd -
+									<!-- -->無料ホームページとブログをつくろう
+								</a>
+								<div class="owndbar__utility owndbar-utility"></div>
+								<div data-page="1" class="page__notibar notibar "></div>
+							</div>
+						</div>
+					</aside>
+					<header class="page__header header">
+						<div class="header__inner u-nav-bg-bdr-clr">
+							<div class="site-icon">
+								<div><img alt="" /></div>
+							</div>
+							<nav role="navigation" class="header__nav global-nav js-nav-overflow-criterion ">
+								<ul class="global-nav__list u-base-bg-clr u-nav-bg-bdr-clr ">
+									<li role="button" class="global-nav__item u-nav-bg-bdr-clr js-nav-item global-nav__item--active"><a target="" class="u-nav-clr u-font u-nav-bdr-clr" href="/">HOME</a></li>
+								</ul>
+							</nav><button class="header__icon icon icon--menu2 u-nav-clr"></button>
+						</div>
+					</header>
+					<div>
+						<div>
+							<div role="banner" class="page__keyvisual keyvisual">
+								<div style="background-image:url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/506753/81aca293187cfe624048a99f4fe13e24_fff0803e62d2f0f68a18e1e58c8dc1a8.png)" class="keyvisual__image"></div>
+							</div>
+							<div role="main" class="page__main u-base-bg-clr page__main--blog">
+								<div class="row grid grid--l grid-type--title grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--title">
+												<div class="heading-lv2 u-font">
+													<h2 class="heading-lv2__text u-bdr-clr"><span class="u-ttl-blk-clr u-acnt-bdr-clr">ABOUT</span></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--text grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--text">
+												<div style="position:relative" class="block__outer block__outer--base u-clr-area">
+													<div style="position:relative" class="block">
+														<div style="position:relative" class="block__inner">
+															<div class="block-txt txt txt--s u-txt-clr">
+																<p>ペコカリはインフラ、ゲーム、アプリ、Web、IOT、社内ネットワーク構築までワンストップで提供するITサービス会社です。</p>
+																<p>正確且つ迅速にエンジニアリング及びソリューションを提供いたします。</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--title grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--title">
+												<div class="heading-lv2 u-font">
+													<h2 class="heading-lv2__text u-bdr-clr"><span class="u-ttl-blk-clr u-acnt-bdr-clr">MEMBER</span></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--image grid--col2 grid-mode--undefined ">
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--image">
+												<div class="img img__item--center img__item--fit">
+													<div><img alt="" /></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--text">
+												<div style="position:relative" class="block__outer block__outer--base u-clr-area">
+													<div style="position:relative" class="block">
+														<div style="position:relative" class="block__inner">
+															<div class="block-txt txt txt--s u-txt-clr">
+																<h3 style="text-align: right;">
+																	<p style="text-align: right;">CEO<br></p>
+																</h3>
+																<h2 style="text-align: right;"><b>Karina Muramatsu</b></h2>
+																<p style="text-align: right;">Facebook : <a href="https://www.facebook.com/karina.suzuki.98" target="_blank" class="u-lnk-clr">karina.suzuki.98</a></p>
+																<p style="text-align: right;">Instagram : <a href="https://www.instagram.com/pekokarina/" target="_blank" class="u-lnk-clr">pekokarina</a></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--image grid--col2 grid-mode--undefined ">
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--image">
+												<div class="img img__item--center img__item--fit">
+													<div><img alt="" /></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--text">
+												<div style="position:relative" class="block__outer block__outer--base u-clr-area">
+													<div style="position:relative" class="block">
+														<div style="position:relative" class="block__inner">
+															<div class="block-txt txt txt--s u-txt-clr">
+																<p style="text-align: right;"><b>CTO</b></p>
+																<h2 style="text-align: right;"><b>Kentarou Muramatsu</b></h2>
+																<p style="text-align: right;">Facebook : <a href="https://www.facebook.com/kentarou.muramatsu" target="_blank" class="u-lnk-clr">kentarou.muramatsu</a></p>
+																<p style="text-align: right;">Twitter : <a href="https://twitter.com/ken_b4u" target="_blank" class="u-lnk-clr">ken_b4u</a></p>
+																<p style="text-align: right;">Github : <a href="https://github.com/ken-b4u" target="_blank" class="u-lnk-clr">ken-b4u</a></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--post grid--col1 grid-mode--main ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--post">
+												<div>
+													<div>
+														<div class="block__outer">
+															<div class="blog-list blog-list--blank">
+																<p class="blog-list__item blog-item blog-item--blank u-txt-clr">まだ記事がありません。</p>
+															</div>
+															<div>
+																<div class="pagination pagination--type02">
+																	<ul class="pagination__list">
+																		<li class="pagination__item pagination__item--first "><a class="u-txt-clr" href="/posts/page/1?type=grid"><span aria-hidden="true" class="icon icon--disclosure-double-l2"></span></a></li>
+																		<li class="pagination__item pagination__item--prev pagination__item--hide"><a class="u-txt-clr" href="/posts/page/-1?type=grid"><span aria-hidden="true" class="icon icon--disclosure-l2"></span></a></li>
+																		<li class="pagination__item pagination__item--next pagination__item--hide"><a class="u-txt-clr" href="/posts/page/1?type=grid"><span aria-hidden="true" class="icon icon--disclosure-r2"></span></a></li>
+																		<li class="pagination__item pagination__item--last "><a class="u-txt-clr" href="/posts/page/undefined?type=grid"><span aria-hidden="true" class="icon icon--disclosure-double-r2"></span></a></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--title grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--title">
+												<div class="heading-lv2 u-font">
+													<h2 class="heading-lv2__text u-bdr-clr"><span class="u-ttl-blk-clr u-acnt-bdr-clr">COPORATE</span></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--text grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--text">
+												<div style="position:relative" class="block__outer block__outer--base u-clr-area">
+													<div style="position:relative" class="block">
+														<div style="position:relative" class="block__inner">
+															<div class="block-txt txt txt--s u-txt-clr">
+																<p>株式会社ペコカリ</p>
+																<p>kentarou@pekokari.com</p>
+																<p>080-5071-4108</p>
+																<p>〒160-0005 東京都新宿区愛住町4-6<br></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--title grid--col1 grid-mode--undefined ">
+									<div class="column col1-1 col1-1--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--title">
+												<div class="heading-lv2 u-font">
+													<h2 class="heading-lv2__text u-bdr-clr"><span class="u-ttl-blk-clr u-acnt-bdr-clr">ACCESS and CONTACT</span></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row grid grid--l grid-type--map grid--col2 grid-mode--undefined ">
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--map">
+												<div class="map">
+													<div class="map__body js-map"><iframe class="map-frame "></iframe></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="column col1-2 col1-2--gtr-l">
+										<div class="block__outer">
+											<div class="block-type--text">
+												<div style="position:relative" class="block__outer block__outer--base u-clr-area">
+													<div style="position:relative" class="block">
+														<div style="position:relative" class="block__inner">
+															<div class="block-txt txt txt--s u-txt-clr">
+																<p><b>CONTACT</b></p>
+																<p>お仕事の依頼は&nbsp;<a href="mailto:kentarou@pekokari.com" target="_blank" class="u-lnk-clr" style="text-align: inherit; letter-spacing: 0.2px;">kentarou@pekokari.com</a>&nbsp;</p>
+																<p>または&nbsp;<a href="https://twitter.com/ken_b4u" target="_blank" class="u-lnk-clr">Twitter</a> に御連絡ください。</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="pswp__bg"></div>
+								<div class="pswp__scroll-wrap">
+									<div class="pswp__container">
+										<div class="pswp__item"></div>
+										<div class="pswp__item"></div>
+										<div class="pswp__item"></div>
+									</div>
+									<div class="pswp__ui pswp__ui--hidden">
+										<div class="pswp__top-bar">
+											<div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+											<div class="pswp__preloader">
+												<div class="pswp__preloader__icn">
+													<div class="pswp__preloader__cut">
+														<div class="pswp__preloader__donut"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+											<div class="pswp__share-tooltip"></div>
+										</div>
+										<div class="pswp__button pswp__button--close pswp__close"><span class="pswp__close__item pswp__close"></span><span class="pswp__close__item pswp__close"></span></div>
+										<div class="pswp__bottom-bar"><button class="pswp__button pswp__button--arrow--left js-lightbox-arrow" title="Previous (arrow left)"></button><button class="pswp__button pswp__button--arrow--right js-lightbox-arrow" title="Next (arrow right)"></button></div>
+										<div class="">
+											<div class="pswp__caption">
+												<div class="pswp__caption"></div>
+												<div class="pswp__caption__link"><a class="js-link"></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<aside style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;transform:none !important;display:block !important;position:static !important;padding:0 !important;overflow:visible !important;margin:0 !important">
+						<div class="owndbar" style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;transform:none !important;display:block !important;position:static !important;padding:0 !important;overflow:visible !important;margin:0 !important"></div>
+					</aside>
+					<footer role="contentinfo" class="page__footer footer" style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;overflow:visible !important;position:static !important">
+						<div class="footer__inner u-bdr-clr " style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;overflow:visible !important;display:block !important;transform:none !important">
+							<div class="footer__item u-bdr-clr" style="opacity:1 !important;visibility:visible !important;text-indent:0 !important;overflow:visible !important;display:block !important;transform:none !important">
+								<p class="footer__copyright u-font"><small class="u-txt-clr u-txt-clr--lv2 u-font" style="color:rgba(17,17,17, 0.5) !important">Pekokari, Inc. All Rights Reserved.</small></p>
+								<div class="powered-by"><a href="https://www.amebaownd.com" class="powered-by__link"><span class="powered-by__text">Powered by</span><span class="powered-by__logo">AmebaOwnd</span><span class="powered-by__text">無料でホームページをつくろう</span></a></div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+			<div class="toast"></div>
+		</div>
+	</div>
+	<script charSet="UTF-8">
+        window.mdrdEnv = "prd";
+	</script>
+	<script charSet="UTF-8">
+        window.INITIAL_STATE = {
+            "authenticate": {
+                "authCheckCompleted": false,
+                "isAuthorized": false
+            },
+            "blogPostReblogs": {},
+            "category": {},
+            "currentSite": {
+                "fetching": false,
+                "status": null,
+                "site": {}
+            },
+            "shopCategory": {},
+            "categories": {},
+            "notifications": {},
+            "page": {
+                "2048106": {
+                    "fetching": false,
+                    "loaded": true,
+                    "meta": {
+                        "code": 200
+                    },
+                    "data": {
+                        "id": "2048106",
+                        "siteId": "506753",
+                        "type": "blog",
+                        "idForType": "0",
+                        "status": "1",
+                        "title": "HOME",
+                        "urlPath": "posts",
+                        "showTitle": false,
+                        "blogPosts": null,
+                        "facebookAlbumImages": null,
+                        "instagramAlbumImages": null,
+                        "createdAt": "2018-06-28T18:11:22Z",
+                        "updatedAt": "2019-11-19T14:15:22Z",
+                        "contents": {
+                            "layout": {
+                                "rows": [{
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "title",
+                                            "value": "ABOUT"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "text",
+                                            "format": "html",
+                                            "value": "\u003Cp\u003Eペコカリはインフラ、ゲーム、アプリ、Web、IOT、社内ネットワーク構築までワンストップで提供するITサービス会社です。\u003C\u002Fp\u003E\u003Cp\u003E正確且つ迅速にエンジニアリング及びソリューションを提供いたします。\u003C\u002Fp\u003E"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "title",
+                                            "value": "MEMBER"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "image",
+                                            "fit": true,
+                                            "scale": 0.5,
+                                            "align": "center",
+                                            "url": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002F0d2ea59ec70701b946b0dfeef4d39b7f_7a51e34be4a333b2d94c0645977cdd6d.png",
+                                            "link": "",
+                                            "width": 707,
+                                            "height": 783,
+                                            "target": "_self"
+                                        }]
+                                    }, {
+                                        "blocks": [{
+                                            "type": "text",
+                                            "format": "html",
+                                            "value": "\u003Ch3 style=\"text-align: right;\"\u003E\u003Cp style=\"text-align: right;\"\u003ECEO\u003Cbr\u003E\u003C\u002Fp\u003E\u003C\u002Fh3\u003E\u003Ch2 style=\"text-align: right;\"\u003E\u003Cb\u003EKarina Muramatsu\u003C\u002Fb\u003E\u003C\u002Fh2\u003E\u003Cp style=\"text-align: right;\"\u003EFacebook : \u003Ca href=\"https:\u002F\u002Fwww.facebook.com\u002Fkarina.suzuki.98\" target=\"_blank\" class=\"u-lnk-clr\"\u003Ekarina.suzuki.98\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Cp style=\"text-align: right;\"\u003EInstagram : \u003Ca href=\"https:\u002F\u002Fwww.instagram.com\u002Fpekokarina\u002F\" target=\"_blank\" class=\"u-lnk-clr\"\u003Epekokarina\u003C\u002Fa\u003E\u003C\u002Fp\u003E"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "image",
+                                            "fit": true,
+                                            "scale": 0.5,
+                                            "align": "center",
+                                            "url": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002F756b88f63d153929dbdaee5d9cadc83c_7d471fc9063fb319c89258a0e759d038.jpg",
+                                            "link": "",
+                                            "width": 2048,
+                                            "height": 2048,
+                                            "target": "_self"
+                                        }]
+                                    }, {
+                                        "blocks": [{
+                                            "type": "text",
+                                            "format": "html",
+                                            "value": "\u003Cp style=\"text-align: right;\"\u003E\u003Cb\u003ECTO\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Ch2 style=\"text-align: right;\"\u003E\u003Cb\u003EKentarou Muramatsu\u003C\u002Fb\u003E\u003C\u002Fh2\u003E\u003Cp style=\"text-align: right;\"\u003EFacebook : \u003Ca href=\"https:\u002F\u002Fwww.facebook.com\u002Fkentarou.muramatsu\" target=\"_blank\" class=\"u-lnk-clr\"\u003Ekentarou.muramatsu\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Cp style=\"text-align: right;\"\u003ETwitter : \u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fken_b4u\" target=\"_blank\" class=\"u-lnk-clr\"\u003Eken_b4u\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Cp style=\"text-align: right;\"\u003EGithub : \u003Ca href=\"https:\u002F\u002Fgithub.com\u002Fken-b4u\" target=\"_blank\" class=\"u-lnk-clr\"\u003Eken-b4u\u003C\u002Fa\u003E\u003C\u002Fp\u003E"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "post",
+                                            "mode": "main",
+                                            "title": "",
+                                            "buttonTitle": "もっと見る",
+                                            "limit": 12,
+                                            "layoutType": "grid",
+                                            "categoryIds": "",
+                                            "showTitle": false,
+                                            "showButton": true,
+                                            "sortType": "recent"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "title",
+                                            "value": "COPORATE"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "text",
+                                            "format": "html",
+                                            "value": "\u003Cp\u003E株式会社ペコカリ\u003C\u002Fp\u003E\u003Cp\u003Ekentarou@pekokari.com\u003C\u002Fp\u003E\u003Cp\u003E080-5071-4108\u003C\u002Fp\u003E\u003Cp\u003E〒160-0005 東京都新宿区愛住町4-6\u003Cbr\u003E\u003C\u002Fp\u003E"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "title",
+                                            "value": "ACCESS and CONTACT"
+                                        }]
+                                    }]
+                                }, {
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "map",
+                                            "storeName": "株式会社ペコカリ",
+                                            "buildingName": "",
+                                            "address": "東京都新宿区愛住4−6",
+                                            "zoom": 17,
+                                            "showWidget": false,
+                                            "mapType": "roadmap",
+                                            "latLng": {
+                                                "lat": 35.6580284,
+                                                "lng": 139.6980081
+                                            }
+                                        }]
+                                    }, {
+                                        "blocks": [{
+                                            "type": "text",
+                                            "format": "html",
+                                            "value": "\u003Cp\u003E\u003Cb\u003ECONTACT\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003Eお仕事の依頼は&nbsp;\u003Ca href=\"mailto:kentarou@pekokari.com\" target=\"_blank\" class=\"u-lnk-clr\" style=\"text-align: inherit; letter-spacing: 0.2px;\"\u003Ekentarou@pekokari.com\u003C\u002Fa\u003E&nbsp;\u003C\u002Fp\u003E\u003Cp\u003Eまたは&nbsp;\u003Ca href=\"https:\u002F\u002Ftwitter.com\u002Fken_b4u\" target=\"_blank\" class=\"u-lnk-clr\"\u003ETwitter\u003C\u002Fa\u003E に御連絡ください。\u003C\u002Fp\u003E"
+                                        }]
+                                    }]
+                                }]
+                            }
+                        }
+                    }
+                }
+            },
+            "paginationTitle": {
+                "isHomePage": true,
+                "showTitle": false,
+                "title": "HOME"
+            },
+            "postArchives": {},
+            "postComments": {
+                "submitting": false,
+                "postStatus": null
+            },
+            "postDetail": {},
+            "postList": {
+                "postList-limit:12-page:1-siteId:506753": {
+                    "fetching": false,
+                    "loaded": true,
+                    "meta": {
+                        "code": 200,
+                        "pagination": {
+                            "total": 0,
+                            "offset": 0,
+                            "limit": 12,
+                            "cursors": {
+                                "after": "",
+                                "before": ""
+                            },
+                            "page": 1
+                        }
+                    },
+                    "data": []
+                }
+            },
+            "shopList": {},
+            "shopItemDetail": {},
+            "pureAd": {},
+            "keywordSearch": {},
+            "proxyFrame": {
+                "loaded": false
+            },
+            "relatedPostList": {},
+            "route": {
+                "route": {
+                    "component": function Connect(props, context) {
+                        _classCallCheck(this, Connect);
+
+                        var _this = _possibleConstructorReturn(this, _Component.call(this, props, context));
+
+                        _this.version = version;
+                        _this.store = props.store || context.store;
+
+                        (0, _invariant2["default"])(_this.store, 'Could not find "store" in either the context or ' + ('props of "' + connectDisplayName + '". ') + 'Either wrap the root component in a <Provider>, ' + ('or explicitly pass "store" as a prop to "' + connectDisplayName + '".'));
+
+                        var storeState = _this.store.getState();
+                        _this.state = {
+                            storeState: storeState
+                        };
+                        _this.clearCache();
+                        return _this;
+                    },
+                    "route": {
+                        "id": "2048106",
+                        "type": "blog",
+                        "idForType": "0",
+                        "title": "HOME",
+                        "urlPath": "\u002F",
+                        "isHomePage": true
+                    }
+                },
+                "params": {},
+                "location": {
+                    "pathname": "\u002F",
+                    "search": "?ao_t=m",
+                    "hash": "",
+                    "action": "POP",
+                    "key": "1vzywc",
+                    "query": {
+                        "ao_t": "m"
+                    }
+                }
+            },
+            "siteConfig": {
+                "tagline": "",
+                "title": "株式会社ペコカリ | Pekokari, Inc.",
+                "copyright": "Pekokari, Inc. All Rights Reserved.",
+                "iconUrl": "\u002Fimg\u002Ficon.png",
+                "logoUrl": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002F81aca293187cfe624048a99f4fe13e24_fff0803e62d2f0f68a18e1e58c8dc1a8.png",
+                "coverImageUrl": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002F81aca293187cfe624048a99f4fe13e24_fff0803e62d2f0f68a18e1e58c8dc1a8.png",
+                "homePageId": "2048106",
+                "siteId": "506753",
+                "themeId": "8",
+                "theme": "belle",
+                "shopId": "",
+                "openedShop": false,
+                "shop": {
+                    "law": {
+                        "userType": "",
+                        "corporateName": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "zipCode": "",
+                        "prefecture": "",
+                        "address": "",
+                        "telNo": "",
+                        "aboutContact": "",
+                        "aboutPrice": "",
+                        "aboutPay": "",
+                        "aboutService": "",
+                        "aboutReturn": ""
+                    },
+                    "privacyPolicy": {
+                        "operator": "",
+                        "contact": "",
+                        "collectAndUse": "",
+                        "restrictionToThirdParties": "",
+                        "supervision": "",
+                        "disclosure": "",
+                        "cookie": ""
+                    }
+                },
+                "user": {
+                    "id": "662061",
+                    "nickname": "Kentarou",
+                    "photoUrl": "",
+                    "createdAt": "2018-06-28T18:07:15Z",
+                    "updatedAt": "2019-11-19T14:09:46Z"
+                },
+                "commentApproval": "reject",
+                "plan": {
+                    "id": "1",
+                    "name": "Free",
+                    "ownd_header": false,
+                    "powered_by": false,
+                    "pure_ads": false
+                },
+                "verifiedType": "general",
+                "navigations": [{
+                    "title": "HOME",
+                    "urlPath": ".\u002F",
+                    "target": "_self",
+                    "pageId": "2048106"
+                }],
+                "routings": [{
+                    "id": "0",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_archive",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Farchives\u002F:yyyy\u002F:mm",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_archive",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Farchives\u002F:yyyy\u002F:mm\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_category",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Fcategories\u002F:category_id",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_category",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Fcategories\u002F:category_id\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "author",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fauthors\u002F:user_id",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "author",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fauthors\u002F:user_id\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_category",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Fcategory\u002F:category_id",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_category",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002Fcategory\u002F:category_id\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "blog_post_detail",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fposts\u002F:blog_post_id",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "keywordSearch",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fsearch\u002Fq\u002F:query",
+                    "isHomePage": false
+                }, {
+                    "id": "0",
+                    "type": "keywordSearch",
+                    "idForType": "0",
+                    "title": "",
+                    "urlPath": "\u002Fsearch\u002Fq\u002F:query\u002Fpage\u002F:page_num",
+                    "isHomePage": false
+                }, {
+                    "id": "2048108",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "NEWS",
+                    "urlPath": "\u002Fpages\u002F2048108\u002F",
+                    "isHomePage": false
+                }, {
+                    "id": "2048108",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "NEWS",
+                    "urlPath": "\u002Fpages\u002F2048108\u002F:url_path",
+                    "isHomePage": false
+                }, {
+                    "id": "2048107",
+                    "type": "static",
+                    "idForType": "0",
+                    "title": "ABOUT",
+                    "urlPath": "\u002Fpages\u002F2048107\u002F",
+                    "isHomePage": false
+                }, {
+                    "id": "2048107",
+                    "type": "static",
+                    "idForType": "0",
+                    "title": "ABOUT",
+                    "urlPath": "\u002Fpages\u002F2048107\u002F:url_path",
+                    "isHomePage": false
+                }, {
+                    "id": "2048106",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "HOME",
+                    "urlPath": "\u002Fpages\u002F2048106\u002F",
+                    "isHomePage": true
+                }, {
+                    "id": "2048106",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "HOME",
+                    "urlPath": "\u002Fpages\u002F2048106\u002F:url_path",
+                    "isHomePage": true
+                }, {
+                    "id": "2048106",
+                    "type": "blog",
+                    "idForType": "0",
+                    "title": "HOME",
+                    "urlPath": "\u002F",
+                    "isHomePage": true
+                }],
+                "siteColors": {
+                    "navigationBackground": "#eeeeee",
+                    "navigationText": "#111111",
+                    "siteTitleText": "",
+                    "background": "#ffffff",
+                    "buttonBackground": "#bbbbbb",
+                    "buttonText": "#aaaaaa",
+                    "text": "#111111",
+                    "link": "#b38d19",
+                    "titleBlock": "#111111",
+                    "border": "#e6e6e6",
+                    "accent": "#b38d19"
+                },
+                "wovnioAttribute": "",
+                "useAuthorBlock": false,
+                "twitterHashtags": "",
+                "createdAt": "2018-06-28T18:07:34Z",
+                "seoTitle": "株式会社ペコカリ | Pekokari, Inc.",
+                "isPreview": false,
+                "siteCategory": [{
+                    "id": "371",
+                    "label": "会社や団体"
+                }],
+                "previewPost": null,
+                "previewShopItem": null,
+                "hasAmebaIdConnection": false,
+                "serverTime": "2020-03-27T11:23:29Z",
+                "complementaries": {
+                    "2": {
+                        "contents": {
+                            "layout": {
+                                "rows": [{
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "shareButton",
+                                            "design": "circle",
+                                            "providers": ["facebook", "twitter", "hatenabookmark", "pocket", "googleplus"]
+                                        }, {
+                                            "type": "siteFollow",
+                                            "description": ""
+                                        }, {
+                                            "type": "relatedPosts",
+                                            "layoutType": "listl",
+                                            "showHeading": true,
+                                            "heading": "関連記事",
+                                            "limit": 3
+                                        }, {
+                                            "type": "postPrevNext",
+                                            "showImage": true
+                                        }]
+                                    }]
+                                }]
+                            }
+                        },
+                        "created_at": "2018-06-28T18:07:34Z",
+                        "updated_at": "2018-06-28T18:11:23Z"
+                    },
+                    "11": {
+                        "contents": {
+                            "layout": {
+                                "rows": [{
+                                    "columns": [{
+                                        "blocks": [{
+                                            "type": "siteFollow",
+                                            "description": ""
+                                        }, {
+                                            "type": "post",
+                                            "mode": "summary",
+                                            "title": "記事一覧",
+                                            "buttonTitle": "",
+                                            "limit": 5,
+                                            "layoutType": "sidebarm",
+                                            "categoryIds": "",
+                                            "showTitle": true,
+                                            "showButton": true,
+                                            "sortType": "recent"
+                                        }, {
+                                            "type": "postsCategory",
+                                            "heading": "カテゴリ",
+                                            "showHeading": true,
+                                            "showCount": true,
+                                            "design": "tagcloud"
+                                        }, {
+                                            "type": "postsArchive",
+                                            "heading": "アーカイブ",
+                                            "showHeading": true,
+                                            "design": "accordion"
+                                        }, {
+                                            "type": "keywordSearch",
+                                            "heading": "",
+                                            "showHeading": false
+                                        }]
+                                    }]
+                                }]
+                            }
+                        },
+                        "created_at": "2018-06-28T18:07:34Z",
+                        "updated_at": "2018-06-28T18:11:23Z"
+                    }
+                },
+                "siteColorsCss": ".u-nav-clr {\n  color: #111111;\n}\n.u-nav-bdr-clr {\n  border-color: #111111;\n}\n.u-nav-bg-clr {\n  background-color: #eeeeee;\n}\n.u-nav-bg-bdr-clr {\n  border-color: #eeeeee;\n}\n.u-site-clr {\n  color: ;\n}\n.u-base-bg-clr {\n  background-color: #ffffff;\n}\n.u-btn-clr {\n  color: #aaaaaa;\n}\n.u-btn-clr:hover,\n.u-btn-clr--active {\n  color: rgba(170,170,170, 0.7);\n}\n.u-btn-clr--disabled,\n.u-btn-clr:disabled {\n  color: rgba(170,170,170, 0.5);\n}\n.u-btn-bdr-clr {\n  border-color: #bbbbbb;\n}\n.u-btn-bdr-clr:hover,\n.u-btn-bdr-clr--active {\n  border-color: rgba(187,187,187, 0.7);\n}\n.u-btn-bdr-clr--disabled,\n.u-btn-bdr-clr:disabled {\n  border-color: rgba(187,187,187, 0.5);\n}\n.u-btn-bg-clr {\n  background-color: #bbbbbb;\n}\n.u-btn-bg-clr:hover,\n.u-btn-bg-clr--active {\n  background-color: rgba(187,187,187, 0.7);\n}\n.u-btn-bg-clr--disabled,\n.u-btn-bg-clr:disabled {\n  background-color: rgba(187,187,187, 0.5);\n}\n.u-txt-clr {\n  color: #111111;\n}\n.u-txt-clr--lv1 {\n  color: rgba(17,17,17, 0.7);\n}\n.u-txt-clr--lv2 {\n  color: rgba(17,17,17, 0.5);\n}\n.u-txt-clr--lv3 {\n  color: rgba(17,17,17, 0.3);\n}\n.u-txt-bg-clr {\n  background-color: #e7e7e7;\n}\n.u-lnk-clr,\n.u-clr-area a {\n  color: #b38d19;\n}\n.u-lnk-clr:visited,\n.u-clr-area a:visited {\n  color: rgba(179,141,25, 0.7);\n}\n.u-lnk-clr:hover,\n.u-clr-area a:hover {\n  color: rgba(179,141,25, 0.5);\n}\n.u-ttl-blk-clr {\n  color: #111111;\n}\n.u-ttl-blk-bdr-clr {\n  border-color: #111111;\n}\n.u-ttl-blk-bdr-clr--lv1 {\n  border-color: #cfcfcf;\n}\n.u-bdr-clr {\n  border-color: #e6e6e6;\n}\n.u-acnt-bdr-clr {\n  border-color: #b38d19;\n}\n.u-acnt-bg-clr {\n  background-color: #b38d19;\n}\nbody {\n  background-color: #ffffff;\n}\nblockquote {\n  color: rgba(17,17,17, 0.7);\n  border-left-color: #e6e6e6;\n}",
+                "siteFont": {
+                    "id": "3",
+                    "name": "Helvetica"
+                },
+                "siteCss": "\u002F**\n * @media all\n * 全体に適用したいCSSを記述してください。\n *\u002F\n .keyvisual__image {\n   height: 0px;\n }\n.blog-list{\n  height:0px\n}",
+                "siteSpCss": "\u002F**\n * @media (max-width: 800px)\n * 画面幅が800px以下のスマートフォン、タブレット用のCSSを記述してください。\n *\u002F",
+                "meta": {
+                    "Title": "株式会社ペコカリ | Pekokari, Inc.",
+                    "Description": "インターネットに関わる全てのエンジニアリングをワンストップで提供します。",
+                    "Keywords": "開発,クラウド,インフラ,ゲーム,アプリ,Web,社内インフラ",
+                    "Noindex": false,
+                    "Nofollow": false,
+                    "CanonicalUrl": "https:\u002F\u002Fwww.pekokari.com",
+                    "AmpHtml": "",
+                    "DisabledFragment": false,
+                    "OgMeta": {
+                        "Type": "website",
+                        "Title": "株式会社ペコカリ | Pekokari, Inc.",
+                        "Description": "インターネットに関わる全てのエンジニアリングをワンストップで提供します。",
+                        "Image": "\u002Fimg\u002Ficon.png",
+                        "SiteName": "株式会社ペコカリ | Pekokari, Inc.",
+                        "Locale": "ja_JP"
+                    },
+                    "DeepLinkMeta": {
+                        "Ios": {
+                            "Url": "amebaownd:\u002F\u002Fpublic\u002Fsites\u002F506753",
+                            "AppStoreId": "911640835",
+                            "AppName": "Ameba Ownd"
+                        },
+                        "Android": {
+                            "Url": "amebaownd:\u002F\u002Fpublic\u002Fsites\u002F506753",
+                            "AppName": "Ameba Ownd",
+                            "Package": "jp.co.cyberagent.madrid"
+                        },
+                        "WebUrl": "https:\u002F\u002Fwww.pekokari.com"
+                    },
+                    "TwitterCard": {
+                        "Type": "summary",
+                        "Site": "@amebaownd",
+                        "Creator": "",
+                        "Title": "株式会社ペコカリ | Pekokari, Inc.",
+                        "Description": "Published by Ameba Ownd",
+                        "Image": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002Fb6401077a8265bdb776731ddc3e52d7c_0d0836a413c8d04f9dccdb4bf96c7c3e.png"
+                    },
+                    "TwitterAppCard": {
+                        "CountryCode": "US",
+                        "IPhoneAppId": "911640835",
+                        "AndroidAppPackageName": "jp.co.cyberagent.madrid",
+                        "CustomUrl": "amebaownd:\u002F\u002Fpublic\u002Fsites\u002F506753"
+                    },
+                    "SiteName": "株式会社ペコカリ | Pekokari, Inc.",
+                    "ImageUrl": "https:\u002F\u002Fcdn.amebaowndme.com\u002Fmadrid-prd\u002Fmadrid-web\u002Fimages\u002Fsites\u002F506753\u002Fb6401077a8265bdb776731ddc3e52d7c_0d0836a413c8d04f9dccdb4bf96c7c3e.png",
+                    "FacebookAppId": "522776621188656",
+                    "InstantArticleId": "",
+                    "FaviconUrl": "",
+                    "AppleTouchIconUrl": "",
+                    "RssItems": [{
+                        "title": "株式会社ペコカリ | Pekokari, Inc.",
+                        "url": "https:\u002F\u002Fwww.pekokari.com\u002Frss.xml"
+                    }],
+                    "AtomItems": [{
+                        "title": "株式会社ペコカリ | Pekokari, Inc.",
+                        "url": "https:\u002F\u002Fwww.pekokari.com\u002Fatom.xml"
+                    }]
+                },
+                "googleConfig": {
+                    "TrackingCode": "UA-147080864-1",
+                    "SiteVerificationCode": ""
+                },
+                "lanceTrackingUrl": "",
+                "FRM_ID_SIGNUP": "c.ownd-sites_r.ownd-sites_506753",
+                "landingPageParams": {
+                    "domain": "www.pekokari.com",
+                    "protocol": "https",
+                    "urlPath": "\u002F"
+                }
+            },
+            "siteFollow": {},
+            "siteServiceTokens": {},
+            "snsFeed": {},
+            "toastMessages": {
+                "messages": []
+            },
+            "user": {
+                "loaded": false,
+                "me": {}
+            },
+            "userSites": {
+                "fetching": null,
+                "sites": []
+            },
+            "userSiteCategories": {}
+        };
+	</script>
+	<script src="https://static.amebaowndme.com/madrid-metro/js/belle-cbfebc35a372baf82dd8.js" charSet="UTF-8"></script>
+	<style charSet="UTF-8">
+		.u-font {
+			font-family: Helvetica, Arial, sans-serif;
+		}
+	</style>
+</body>
+
+</html>
